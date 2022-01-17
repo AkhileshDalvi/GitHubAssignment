@@ -1,0 +1,23 @@
+1. Create a local git repository with any project name
+Ans: 
+PS G:\PG-DAC\13_Software Engineering\GitAssignment> git init
+Initialized empty Git repository in G:/PG-DAC/13_Software Engineering/GitAssignment/.git/
+
+2. Commit the initial code
+
+
+3. Update the code
+
+
+4. Use git commands to
+o Get the updated files
+o List the changes
+
+
+5. Create a repository on GitHub 
+
+
+6. Push the local changes to GitHub
+
+
+7. Pull the code from GitHub
