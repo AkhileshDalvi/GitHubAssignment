@@ -22,12 +22,73 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+git add *
+
+git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Assignment_1.txt
+
+git commit -m "1st Update" 
+[master 1e7b8bc] 1st Update
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+
 4. Use git commands to
 o Get the updated files
+Ans:
+git log
+commit 1e7b8bc4adb67d20dd0ca35befa531399068f4ca (HEAD -> master)
+Author: akhilesh <dalvi.akhilesh123@gmail.com>
+Date:   Mon Jan 17 16:13:09 2022 +0530
+
+    1st Update
+
+commit cfae64a68e94008caacd0c2690531b296c1b759f
+Author: akhilesh <dalvi.akhilesh123@gmail.com>
+Date:   Mon Jan 17 16:11:31 2022 +0530
+
+    Initial Commit
+
 o List the changes
+Ans:
+git diff
+diff --git a/Assignment_1.txt b/Assignment_1.txt
+index f07314c..f809246 100644
+--- a/Assignment_1.txt
++++ b/Assignment_1.txt
+@@ -22,9 +22,37 @@ Changes not staged for commit:
+
+ no changes added to commit (use "git add" and/or "git commit -a")
+
++git add *
++
++git status
++On branch master
++Changes to be committed:
++  (use "git restore --staged <file>..." to unstage)
++        modified:   Assignment_1.txt
++
++git commit -m "1st Update" 
++[master 1e7b8bc] 1st Update
++ 1 file changed, 15 insertions(+), 2 deletions(-)
++
+ 4. Use git commands to
 
 
 5. Create a repository on GitHub 
+Ans:
+git remote add "https://github.com/AkhileshDalvi/GitHubAssignment.git"
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching 
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from   
 
 
 6. Push the local changes to GitHub
