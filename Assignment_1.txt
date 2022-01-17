@@ -4,10 +4,23 @@ PS G:\PG-DAC\13_Software Engineering\GitAssignment> git init
 Initialized empty Git repository in G:/PG-DAC/13_Software Engineering/GitAssignment/.git/
 
 2. Commit the initial code
-
+Ans:
+git add *
+git commit -m "Initial Commit"
+[master (root-commit) cfae64a] Initial Commit
+1 file changed, 23 insertions(+)
+create mode 100644 Assignment_1.txt
 
 3. Update the code
+Ans:
+git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Assignment_1.txt
 
+no changes added to commit (use "git add" and/or "git commit -a")
 
 4. Use git commands to
 o Get the updated files
