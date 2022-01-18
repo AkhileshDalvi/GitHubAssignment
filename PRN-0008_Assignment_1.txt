@@ -140,7 +140,17 @@ M       PRN-0008_Assignment_1.txt
 
 11. Merge the branch
 Ans:
+git add *
 
+PS G:\PG-DAC\13_Software Engineering\GitAssignment> git status
+On branch assign2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   PRN-0008_Assignment_1.txt
+
+git commit -m "First Commit in assign2 branch"
+[assign2 31c9d76] First Commit in assign2 branch
+ 1 file changed, 42 insertions(+), 1 deletion(-)
 
 12. Remove the branch
 Ans:
