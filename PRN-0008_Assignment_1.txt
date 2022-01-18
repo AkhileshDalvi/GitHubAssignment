@@ -160,4 +160,5 @@ Fast-forward
 
 12. Remove the branch
 Ans:
-
+git branch -d assign2
+Deleted branch assign2 (was 9b92622).
