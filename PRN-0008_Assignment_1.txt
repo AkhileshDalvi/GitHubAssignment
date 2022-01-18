@@ -104,3 +104,44 @@ git pull origin master
 From https://github.com/AkhileshDalvi/GitHubAssignment
  * branch            master     -> FETCH_HEAD
 Already up to date.
+
+8. Make the changes in the pulled project from github
+Ans:
+git pull origin master
+From https://github.com/AkhileshDalvi/GitHubAssignment
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   PRN-0008_Assignment_1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+9. Create a new branch
+Ans:
+git branch assign2
+
+git branch        
+  assign2
+* master
+
+10. Checkout the new branch
+Ans:
+git checkout assign2
+Switched to branch 'assign2'
+M       PRN-0008_Assignment_1.txt
+
+11. Merge the branch
+Ans:
+
+
+12. Remove the branch
+Ans:
+
